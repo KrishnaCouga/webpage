@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", arial, sans-serif;
+}
+
+.Graydiv {
+    height: auto;
+    width: 100%;
+    background-color: rgba(248, 249, 250, 0.829);
+    padding-top: 70px;
+    padding-left: -20px;
+
+    .Educationdiv {
+        height: 497px;
+        width: auto;
+        // margin-top: 25px;
+        // margin-left: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+        .Eduimgdiv {
+            height: 497px;
+            width: 550px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+
+        .Educontentdiv {
+            height: 497px;
+            width: 475px;
+            //position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+
+            .Educontent {
+                height: 200px;
+                width: 475px;
+                // position: absolute;
+                //border: 1px solid blue;
+                margin-top: -80px;
+
+                .Edu {
+                    color: rgb(17, 203, 215);
+                    font-family: inherit;
+                    font-size: 45px;
+                    font-weight: 100;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+
+                .Edupara {
+                    font-family: inherit;
+                    color: rgb(128, 128, 128);
+                    font-size: 15.5px;
+                    letter-spacing: .3px;
+                    text-align: left;
+                    line-height: 32px;
+                    margin-left: 75px;
+                    margin-top: -20px;
+                }
+            }
+
+            .Countdowndiv {
+                height: max-content;
+                width: 475px;
+                //border: 1px solid blue;
+                margin-top: -50px;
+                margin-left: 100px;
+                display: flex;
+                flex-wrap: wrap;
+
+                .Countdown {
+                    height: 100px;
+                    width: 220px;
+                    //border: 1px solid black;
+                    display: flex;
+                    flex-direction: row;
+
+
+                    .countImg {
+                        height: 50px;
+                        width: 50px;
+                        margin-top: 25px;
+                        margin-left: 10px;
+                    }
+
+                    .counter {
+                        color: rgb(17, 203, 215);
+                        font-size: 40px;
+                        margin-top: 15px;
+                        margin-left: 15px;
+                    }
+
+                    .counttext {
+                        font-size: 14px;
+                        color: rgba(0, 0, 0, 0.429);
+                        letter-spacing: 2px;
+                        margin-top: -30px;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Populardiv {
+        height: 280px;
+        width: 100%;
+        text-align: center;
+        margin-top: 140px;
+
+        .Popular {
+            font-size: 45px;
+            font-family: inherit;
+            font-weight: 100;
+            color: rgb(17, 203, 215);
+        }
+
+        .Popularpara {
+            color: rgb(128, 128, 128);
+            font-family: inherit;
+            line-height: 32px;
+            margin-top: -20px;
+            margin-bottom: 40px;
+
+        }
+
+        .Enroll {
+            height: 50px;
+            width: 180px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 550;
+            color: white;
+            background-color: rgb(17, 203, 215);
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            padding: 15px 20px 15px 20px;
+        }
+
+        .Enroll:hover {
+            color: rgba(0, 0, 0, 0.829);
+            font-weight: 100;
+            background-color: transparent;
+            border: 2px solid rgba(17, 203, 215, 255);
+        }
+    }
+
+    .arrow {
+        font-size: 28px;
+        font-weight: 100;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+
+    }
+}

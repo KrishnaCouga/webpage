@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", arial, sans-serif;
+}
+
+.Hbox {
+    position: relative;
+}
+
+.HHcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.Welcomediv {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    .Wright {
+        height: 480px;
+        width: 600px;
+        text-align: justify;
+        padding-left: 80px;
+        padding-right: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .Welcome {
+            font-family: "Rubik", arial, sans-serif;
+            font-size: 45px;
+            color: #11cbd7;
+            font-weight: 100;
+            margin-top: -20px;
+        }
+
+        .Welcomepara {
+            background: #fff;
+            font-family: "Rubik", arial, sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 2;
+            color: gray;
+            margin-top: -17px;
+        }
+
+        .Read {
+            height: 50px;
+            width: 125px;
+            font-family: inherit;
+            font-size: 17px;
+            font-weight: 600;
+            color: white;
+            background-color: rgb(17, 203, 215);
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 15px;
+            margin-top: 40px;
+        }
+
+        .Read:hover {
+            color: rgba(0, 0, 0, 0.829);
+            font-weight: 600;
+            background-color: transparent;
+            border: 2px solid rgba(17, 203, 215, 255);
+        }
+    }
+
+    .Wleft {
+        height: 350px;
+        width: 550px;
+        position: relative;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .Circle {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: white;
+            opacity: 70%;
+            position: absolute;
+            top: 35%;
+            left: 40%;
+        }
+
+        .Icon {
+            color: rgb(17, 203, 215);
+            font-size: 35px;
+            position: absolute;
+            top: 32%;
+            left: 38%
+        }
+
+        .Circle:hover {
+            opacity: 100%;
+        }
+    }
+}
+
+.teacherdiv {
+    height: 200px;
+    width: 100%;
+    //border: 1px solid red;
+    text-align: center;
+
+    .teacherh2 {
+        font-size: 43px;
+        font-weight: 100px;
+        color: rgb(17, 203, 215);
+    }
+
+    .teacherpara {
+        margin-top: -20px;
+        font-size: 15.5px;
+        color: rgba(0, 0, 0, 0.389);
+        line-height: 35px;
+    }
+}
+
+.Blogmaindiv {
+    //height: 930px;
+    height: max-content;
+    width: 100%;
+    background-color: rgba(248, 249, 250, 0.829);
+    padding-bottom: 120px;
+
+    .blogdiv {
+        text-align: center;
+        padding-top: 45px;
+    }
+
+    .blogh2 {
+        font-size: 43px;
+        font-weight: 100px;
+        color: rgb(17, 203, 215);
+    }
+
+    .blogpara {
+        margin-top: -20px;
+        font-size: 15.5px;
+        color: rgba(0, 0, 0, 0.389);
+        line-height: 35px;
+    }
+
+    .Blogpicmaindiv {
+        //height: 1000px;
+        height: max-content;
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+
+        .blogleft {
+            //height: 500px;
+            height: max-content;
+            width: 540px;
+            margin-left: 100px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.359);
+        }
+
+        .blogpicleft {
+            height: 330px;
+            width: 540px;
+
+            .bloggroupImg {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+
+        .blogcontentleft {
+            text-align: left;
+            padding: 18px;
+            margin-top: -10px;
+            background-color: white;
+
+            .blogtopicleft {
+                font-size: 20px;
+                font-weight: 100;
+                color: rgba(0, 0, 0, 0.629);
+                line-height: 35px;
+            }
+
+            .blogtopicleft:hover {
+                color: rgb(17, 203, 215);
+            }
+
+            .blogiconleft {
+                font-size: 15px;
+                font-family: inherit;
+                color: rgba(0, 0, 0, 0.329);
+                display: flex;
+            }
+
+            .cal:hover,
+            .ad:hover,
+            .fill:hover {
+                color: rgba(0, 0, 0, 0.629);
+            }
+        }
+
+        .blogright {
+            //height: 510px;
+            height: max-content;
+            width: fit-content;
+            margin-left: 30px;
+            border: green 1px solid;
+
+            .blogrightsmall {
+                height: max-content;
+                width: fit-content;
+                // border: 1px solid blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .blogpicright {
+                    height: 100px;
+                    width: 160px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.359);
+
+                    .blogpicrightImg {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        object-position: 0%;
+                    }
+                }
+
+                .blogcontentright {
+                    height: max-content;
+                    width: max-content;
+                    border: 1px solid purple;
+
+                    .blogtopicright {
+                        font-size: 18px;
+                        font-weight: 100;
+                        color: rgba(0, 0, 0, 0.629);
+                        line-height: 25px;
+                        margin-top: 3px;
+                    }
+
+                    .blogtopicright:hover {
+                        color: rgb(17, 203, 215);
+                    }
+
+                    .blogiconright {
+                        font-size: 12px;
+                        color: rgba(0, 0, 0, 0.329);
+                        letter-spacing: 1px;
+                        display: flex;
+                        margin-top: -12px;
+                    }
+
+                    .cal:hover,
+                    .ad:hover,
+                    .fill:hover {
+                        color: rgba(0, 0, 0, 0.629);
+                    }
+                }
+            }
+        }
+
+    }
+}

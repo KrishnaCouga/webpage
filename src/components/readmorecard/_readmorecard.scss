@@ -1,0 +1,49 @@
+.card {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .innercard {
+        height: 300px;
+        width: 250px;
+    }
+
+    img {
+        height: 50px;
+        width: 55px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    p {
+        line-height: 2;
+        color: gray;
+    }
+
+    .readarrow {
+        color: rgb(17, 203, 215);
+        font-family: inherit;
+        font-size: 12px;
+        text-decoration: none;
+
+        .icn {
+            position: relative;
+            transition: all 0.3s linear;
+            left: 5px;
+        }
+    }
+
+    .readarrow:hover {
+        color: rgb(20, 130, 138);
+
+        .icn {
+            left: 15px;
+            transition: all 0.3s linear;
+        }
+    }
+}

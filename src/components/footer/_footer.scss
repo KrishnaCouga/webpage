@@ -1,0 +1,88 @@
+.Footermaindiv {
+    height: max-content;
+    width: 100%;
+    //margin-top: 120px;
+
+    .footerbluediv {
+        height: 210px;
+        width: 100%;
+        background-color: rgb(17, 203, 215);
+        display: flex;
+
+        .footerblueleft {
+            height: 210px;
+            width: 620px;
+            padding-top: 30px;
+            padding-left: 70px;
+
+
+            .footerblueh2 {
+                color: white;
+                font-weight: 100;
+                font-size: 31px;
+            }
+
+            .footerbluepara {
+                font-size: 15.5px;
+                letter-spacing: .5px;
+                color: rgb(119, 243, 252);
+                line-height: 30px;
+                margin-top: -10px;
+            }
+        }
+
+        .footerblueright {
+            width: 100%;
+            max-width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .inputSection {
+                height: fit-content;
+                width: 80%;
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+
+                .footerenter {
+                    height: 50px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    border-radius: 5px;
+                    font-size: 17px;
+                    // padding-left: 10px;
+                    position: absolute;
+                    padding-inline-start: 10px;
+                }
+
+                .footersub {
+                    padding: 8px;
+                    border-radius: 6px;
+                    background-color: rgb(17, 203, 215);
+                    text-decoration: none;
+                    color: white;
+                    position: absolute;
+                    z-index: 1;
+                    right: 0;
+                }
+
+                .footersub:hover {
+                    background-color: white;
+                    color: black;
+                    border: 2px solid rgb(17, 203, 215);
+                }
+            }
+        }
+    }
+
+    .Footerbottommain {
+        height: max-content;
+        width: 100%;
+        border: 1px solid blue;
+        display: flex;
+    }
+
+}

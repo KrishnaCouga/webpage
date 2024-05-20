@@ -1,0 +1,85 @@
+.coursecard {
+    height: 560px;
+    width: 100%;
+    max-width: 1400px;
+    //border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    overflow: hidden;
+    overflow-x: scroll;
+
+    .coursemaindiv {
+        height: 500px;
+        width: 100%;
+        margin-top: -55px;
+        margin-left: 20px;
+
+        .innercourse {
+            height: 500px;
+            width: 412px;
+            //border: 1px solid green;
+            background-color: white;
+        }
+
+        img {
+            height: 270px;
+            width: 412px;
+        }
+
+        .coursecontent {
+            margin: 15px;
+        }
+
+        .courseh2 {
+            font-size: 20px;
+            font-weight: 100;
+            color: rgba(0, 0, 0, 0.629);
+            margin-top: 30px;
+        }
+
+        .coursepara {
+            color: rgb(153, 149, 149);
+            font-size: 15.5px;
+            line-height: 30px;
+        }
+
+        .coursebottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+
+            .price {
+                color: rgb(17, 203, 215);
+                font-size: 15px;
+            }
+
+            .dollar {
+                color: rgba(0, 0, 0, 0.233);
+                text-decoration: line-through;
+                margin-left: 180px;
+                margin-top: 5px;
+            }
+
+            .free {
+                height: 30px;
+                width: 55px;
+                background-color: rgb(17, 203, 215);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+            }
+        }
+
+        .innercourse:hover {
+            box-shadow: 0px 20px 20px 20px rgba(128, 128, 128, 0.204)
+        }
+
+        .courseh2:hover {
+            color: rgb(17, 203, 215);
+        }
+
+    }
+}

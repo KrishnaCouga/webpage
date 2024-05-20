@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", arial, sans-serif;
+}
+
+.Content {
+    width: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    h1 {
+        color: white;
+        font-family: inherit;
+        font-size: 60px;
+        font-weight: 50;
+    }
+
+    .Para {
+        height: 50px;
+        width: 700px;
+        margin-top: -35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Home {
+        text-decoration: none;
+        color: rgb(17, 203, 215);
+
+    }
+
+    .Home:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    p {
+        font-family: inherit;
+        color: white;
+    }
+
+    .Arrow {
+        font-size: 22px;
+    }
+}
